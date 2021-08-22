@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+body{
+	padding:0px;
+	background:#f2d1b7;
+}
+#menuTop{
+	position:relative;
+	display:block;
+	width:100.5%;
+	height:60px;
+	top:-8px;
+	left:0%;
+	background:#842e0d;
+}
+#logomarca{
+	display:block;
+	position:relative;
+	left:15%;
+	width:400px;
+	height:400px;
+}
