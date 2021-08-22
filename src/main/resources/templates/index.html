@@ -10,26 +10,43 @@
 	<!--<script type="text/javascript" th:src="@{/js/scrolling.js}"></script> -->
  </head>
  <body>
-	<div id="menuTop">
-		<div class="buttonMenuProfile">
-			<span class="textButtonMenuProfile">Perfil</span>
+ 	<div id="menuTopSistema">
+ 		<div class="buttonMenuSistemaProfile">
+			<img th:src="@{/imagens/comum/iconePerfil.png}" id="iconePerfil" class="iconeMenuSistema"/>
 		</div>
-		<div class="buttonMenu">
+		<div class="buttonMenuSistema">
+			<img th:src="@{/imagens/comum/iconeHelp.png}" id="iconeHelp" class="iconeMenuSistema"/>
+		</div>
+		<div class="buttonMenuSistema">
+			<img th:src="@{/imagens/comum/iconeLocation.png}" id="iconeLocation" class="iconeMenuSistema"/>
+		</div>
+		<div class="buttonMenuSistema">
+			<img th:src="@{/imagens/comum/iconeEncomenda.png}" id="iconeEncomenda" class="iconeMenuSistema"/>
+		</div>
+ 	</div>
+	<div id="menuTopNavigation">
+		<div class="buttonMenuNavigation">
 			<span class="textButtonMenu">Paes comums</span>
+			<div class="primeiroBLocoDeNavegacao">
+			
+			</div>
+			<div class="segundoBlocoDeNavegacao">
+			
+			</div>
 		</div>
-		<div class="buttonMenu">
+		<div class="buttonMenuNavigation">
 			<span class="textButtonMenu">Paes especiais</span>
 		</div>
-		<div class="buttonMenu">
+		<div class="buttonMenuNavigation">
 			<span class="textButtonMenu">Lanches</span>
 		</div>
-		<div class="buttonMenu">
+		<div class="buttonMenuNavigation">
 			<span class="textButtonMenu">Café da manhã</span>
 		</div>
-		<div class="buttonMenu">
+		<div class="buttonMenuNavigation">
 			<span class="textButtonMenu">Encomendar</span>
 		</div>
-		<div class="buttonMenu">
+		<div class="buttonMenuNavigation">
 			<span class="textButtonMenu">Salgados</span>
 		</div>
 	</div>
