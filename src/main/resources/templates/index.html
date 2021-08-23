@@ -8,6 +8,7 @@
 	<link th:href="@{/styles/menuNavigation.css}" rel="stylesheet"/>
 	<script type="text/javascript" th:src="@{/js/redirect.js}"></script>
 	<script type="text/javascript" th:src="@{/js/indexJs.js}"></script>
+	<script type="text/javascript" th:src="@{/js/resourcesConteudosProdutos.js}"></script>
 	<script type="text/javascript" th:src="@{/js/menuNavigation.js}"></script>
 	<!--<script type="text/javascript" th:src="@{/js/scrolling.js}"></script> -->
  </head>
@@ -77,7 +78,8 @@
 			<div class="segundoBlocoDeNavegacao" id="blocoPaesComuns2">
 			</div>
 		</div>
-		<div class="buttonMenuNavigation" id="button-Especiais">
+		<div class="buttonMenuNavigation" id="button-Especiais" onmouseover="funcaoOnMouseOverObjetoMenuNavigatio('Especiais')"
+		onmouseleave="funcaoOnMouseLeaveObjetoMenuNavigatio('Especiais')">
 			<span class="textButtonMenu">Especiais</span>
 			<div class="primeiroBLocoDeNavegacao" id="blocoEspeciais1">
 				<div class="coluna1">
@@ -96,7 +98,8 @@
 			<div class="segundoBlocoDeNavegacao" id="blocoEspeciais2">
 			</div>
 		</div>
-		<div class="buttonMenuNavigation" id="buttonLanches">
+		<div class="buttonMenuNavigation" id="buttonLanches" onmouseover="funcaoOnMouseOverObjetoMenuNavigatio('Lanches')"
+		onmouseleave="funcaoOnMouseLeaveObjetoMenuNavigatio('Lanches')">
 			<span class="textButtonMenu">Lanches</span>
 			<div class="primeiroBLocoDeNavegacao" id="blocoLanches1">
 				<div class="coluna1">
@@ -106,9 +109,6 @@
 					<span class="textoTopicoMenuNavegacao">X-Salada</span>
 				</div>
 				<div class="coluna1">
-					<span class="textoTopicoMenuNavegacao">X-Batata</span>
-				</div>
-				<div class="coluna1">
 					<span class="textoTopicoMenuNavegacao">X-Egg</span>
 				</div>
 				<div class="coluna1">
@@ -116,9 +116,6 @@
 				</div>
 				<div class="coluna1">
 					<span class="textoTopicoMenuNavegacao">X-Frango</span>
-				</div>
-				<div class="coluna1">
-					<span class="textoTopicoMenuNavegacao">X-Italiano</span>
 				</div>
 				<div class="coluna1">
 					<span class="textoTopicoMenuNavegacao">X-Calabresa</span>
@@ -133,19 +130,10 @@
 					<span class="textoTopicoMenuNavegacao">X-Gaúcho</span>
 				</div>
 				<div class="coluna1">
-					<span class="textoTopicoMenuNavegacao">X-Lombinho</span>
-				</div>
-				<div class="coluna1">
 					<span class="textoTopicoMenuNavegacao">X-Costela</span>
 				</div>
 				<div class="coluna1">
 					<span class="textoTopicoMenuNavegacao">X-Tudo</span>
-				</div>
-					<div class="coluna1">
-					<span class="textoTopicoMenuNavegacao">X-Burguer Big</span>
-				</div>
-				<div class="coluna1">
-					<span class="textoTopicoMenuNavegacao">X-Salada Big</span>
 				</div>
 				<div class="coluna1">
 					<span class="textoTopicoMenuNavegacao">Hot-dog</span>
@@ -157,14 +145,12 @@
 			<div class="segundoBlocoDeNavegacao" id="blocoLanches2">
 			</div>
 		</div>
-		<div class="buttonMenuNavigation" id="button-Bebidas">
+		<div class="buttonMenuNavigation" id="button-Bebidas" onmouseover="funcaoOnMouseOverObjetoMenuNavigatio('Bebidas')"
+		onmouseleave="funcaoOnMouseLeaveObjetoMenuNavigatio('Bebidas')">
 			<span class="textButtonMenu">Bebidas</span>
 			<div class="primeiroBLocoDeNavegacao" id="blocoBebidas1">
 				<div class="coluna1">
 					<span class="textoTopicoMenuNavegacao">Expresso</span>
-				</div>
-				<div class="coluna1">
-					<span class="textoTopicoMenuNavegacao">Doppio</span>
 				</div>
 				<div class="coluna1">
 					<span class="textoTopicoMenuNavegacao">Macchiato</span>
@@ -218,7 +204,8 @@
 			<div class="segundoBlocoDeNavegacao" id="blocoBebidas2">
 			</div>
 		</div>
-		<div class="buttonMenuNavigation" id="button-Salgados">
+		<div class="buttonMenuNavigation" id="button-Salgados" onmouseover="funcaoOnMouseOverObjetoMenuNavigatio('Salgados')"
+		onmouseleave="funcaoOnMouseLeaveObjetoMenuNavigatio('Salgados')">
 			<span class="textButtonMenu">Salgados</span>
 			<div class="primeiroBLocoDeNavegacao" id="blocoSalgados1">
 				<div class="coluna1">
