@@ -79,36 +79,43 @@ header{
 	height:350px;
 	border-radius:10px;
 	transition:box-shadow 1s;
+	z-index:10;
 }
 #titleArticlePaes{
 	position:relative;
 	top:-100px;
 	left:42%;
 	opacity:0;
+	width:32.7%;
 	display:inline-block;
 	font-size:45pt;
-	font-family:verdana;
+	font-family:agency fb;
 	color:#8B4513;
+	padding:20px;
+	padding-left:15%;
+	background:white;
 	text-shadow:1px 1px 0px black;
-	border-right:3px solid #8B4513;
-	border-top-right-radius:10px;
-	border-bottom-right-radius:3px;
+	border:0.1px solid #1c1c1c;
+	border-radius:3px;
 	transition:opacity 0.8s,left 0.8s;
+	box-shadow:0px 0px 10px #1C1C1C;
 }
 #contentArticlePaes{
 	position:relative;
 	display:block;
 	width:80%;
-	top:45px;;
+	top:10px;;
 	left:40%;
 	color:#A0522D;
 	line-height:100%;
 	font-size:20pt;
 	opacity:0;
+	padding:20px;
+	padding-top:50px;
 	transition:opacity 0.8s,left 0.8s,border 1s;
-	border-right:3px solid #8B4513;
-	border-bottom-right-radius:10px;
-	border-top-right-radius:3px;
+	border:1px solid #1c1c1c;
+	border-radius:10px;
+	box-shadow:0px 0px 10px #1C1C1C;
 }
 	/*Fim ------------------------*/
 /*fim --------------------------*/
