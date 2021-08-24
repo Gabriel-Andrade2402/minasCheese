@@ -6,24 +6,40 @@
 	<link rel="icon" type="image/png" th:href="@{/imagens/comum/logomarca.png}">
 	<link th:href="@{/styles/indexCss.css}" rel="stylesheet"/>
 	<link th:href="@{/styles/menuNavigation.css}" rel="stylesheet"/>
+	<link th:href="@{/styles/menuTop.css}" rel="stylesheet"/>
 	<script type="text/javascript" th:src="@{/js/redirect.js}"></script>
 	<script type="text/javascript" th:src="@{/js/indexJs.js}"></script>
 	<script type="text/javascript" th:src="@{/js/resourcesConteudosProdutos.js}"></script>
 	<script type="text/javascript" th:src="@{/js/menuNavigation.js}"></script>
+	<script type="text/javascript" th:src="@{/js/scroll.js}"></script>
 	<!--<script type="text/javascript" th:src="@{/js/scrolling.js}"></script> -->
  </head>
  <body>
  	<div id="menuTopSistema">
- 		<div class="buttonMenuSistemaProfile">
+ 		<div class="buttonMenuSistemaProfile" id="botaoPerfil">
 			<img th:src="@{/imagens/comum/iconePerfil.png}" id="iconePerfil" class="iconeMenuSistema"/>
 		</div>
-		<div class="buttonMenuSistema">
+		<div class="caixaInputUsername" id="blocoUsername">
+			<span class="textSobInput">Username/Email</span>
+			<input type="text" class="inputLogin"/>
+		</div>
+		<div class="caixaInputPassword" id="blocoPassword">
+			<span class="textSobInput">Password</span>
+			<input type="password" class="inputLogin"/>
+		</div>
+		<div class="botaoAcaoLogin" id="botaoLogar">
+			<span class="textBotaoAcao" id="textBotaoAcaoLogar" style="left:25%">Logar</span>
+		</div>
+		<div class="botaoAcaoLogin" id="botaoCadastrar">
+			<span class="textBotaoAcao" id="textBotaoAcaoCadastrar">Cadastrar-se</span>
+		</div>
+		<div class="buttonMenuSistema" id="botaoHelp">
 			<img th:src="@{/imagens/comum/iconeHelp.png}" id="iconeHelp" class="iconeMenuSistema"/>
 		</div>
-		<div class="buttonMenuSistema">
+		<div class="buttonMenuSistema" id="botaoLocation">
 			<img th:src="@{/imagens/comum/iconeLocation.png}" id="iconeLocation" class="iconeMenuSistema"/>
 		</div>
-		<div class="buttonMenuSistema">
+		<div class="buttonMenuSistema" id="botaoEncomenda">
 			<img th:src="@{/imagens/comum/iconeEncomenda.png}" id="iconeEncomenda" class="iconeMenuSistema"/>
 		</div>
  	</div>
@@ -259,19 +275,19 @@
 			Nossas especialidades são os pães franceses e paezinhos de queijo, Nosso segredo está na massa
 			que é totalmente manipulada por nossas mãos, Servimos diversas formas de pães, tamanhos e recheios.</span>
 		</div>
+		<script type="text/javascript">
+			inicializacao();		
+		</script>
 	</header>
 	<section>
 		<article id="articlePaes">
-			<img th:src="@{/imagens/index/backgroundArticle1.png}" id="backgroundArticle1">
+			<img th:src="@{/imagens/index/bakcgroundArticle1.gif}" id="backgroundArticle1">
 			<span id="titleArticlePaes">Café da manhã...</span>
 			<span id="contentArticlePaes">Servimos as refeições para fazer uma manhã perfeita para você, cafés
 			de todos os gostos, sucos naturais e bebidas prontas, também servimos os melhores pães da região,
 			preparados para consumir no local ou para levar também como por exemplo um pão com mortadela acompanhado
 			de um café com leite. Venha conhecer o local e entender melhor os produtos aqui servidos fresquinhos.</span>
 		</article>
-	
-	</section>
-	<section>
 	
 	</section>
  </body>

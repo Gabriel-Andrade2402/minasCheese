@@ -4,37 +4,6 @@ body{
 	background:white;
 	overflow-x:hidden;
 }
-/*menu sistema*/
-#menuTopSistema{
-	position:relative;
-	display:block;
-	width:102%;
-	height:50px;
-	top:-8px;
-	left:-1%;
-	background:linear-gradient(to right,#F4A460,#FFDEAD);
-}
-.buttonMenuSistemaProfile{
-	display:inline-block;
-	position:relative;
-	left:1%;
-}
-.buttonMenuSistema{
-	display:inline-block;
-	position:relative;
-	left:70%;
-	margin-right:40px;
-}
-.iconeMenuSistema{
-	height:100%;
-	width:50px;
-	transition:filter 0.5s;
-}
-.iconeMenuSistema:hover{
-	cursor:pointer;
-	filter:brightness(300%);
-}
-/*fim ------------------*/
 
 /*HEADER*/
 header{
@@ -69,8 +38,10 @@ header{
 	position:relative;
 	width:620px;
 	height:350px;
-	left:10%;
+	left:40%;
 	top:-25px;
+	opacity:0;
+	transition:opacity 1.2s, left 0.8s;
 }
 #juncaoLogomarca{
 	display:block;
@@ -102,33 +73,39 @@ header{
 #backgroundArticle1{
 	position:relative;
 	display:inline-block;
-	left:8%;
-	top:0px;
+	left:10%;
+	top:50px;
 	width:35%;
 	height:350px;
+	border-radius:10px;
+	transition:box-shadow 1s;
 }
 #titleArticlePaes{
 	position:relative;
-	top:-150px;
-	left:12%;
+	top:-100px;
+	left:42%;
+	opacity:0;
 	display:inline-block;
 	font-size:45pt;
 	font-family:verdana;
 	color:#8B4513;
+	text-shadow:1px 1px 0px black;
 	border-right:3px solid #8B4513;
 	border-top-right-radius:10px;
 	border-bottom-right-radius:3px;
+	transition:opacity 0.8s,left 0.8s;
 }
 #contentArticlePaes{
 	position:relative;
 	display:block;
 	width:80%;
-	top:-30px;;
-	left:10%;
+	top:45px;;
+	left:40%;
 	color:#A0522D;
 	line-height:100%;
 	font-size:20pt;
-	transition:border 1s;
+	opacity:0;
+	transition:opacity 0.8s,left 0.8s,border 1s;
 	border-right:3px solid #8B4513;
 	border-bottom-right-radius:10px;
 	border-top-right-radius:3px;
