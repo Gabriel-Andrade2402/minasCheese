@@ -68,7 +68,7 @@ header{
 /*section*/
 	/*Paes*/
 #articlePaes{
-	height:400px;
+	height:700px;
 }
 #backgroundArticle1{
 	position:relative;
@@ -93,9 +93,8 @@ header{
 	color:#8B4513;
 	padding:20px;
 	padding-left:15%;
-	background:white;
+	background:#F5DEB3;
 	text-shadow:1px 1px 0px black;
-	border:0.1px solid #1c1c1c;
 	border-radius:3px;
 	transition:opacity 0.8s,left 0.8s;
 	box-shadow:0px 0px 10px #1C1C1C;
@@ -111,11 +110,84 @@ header{
 	font-size:20pt;
 	opacity:0;
 	padding:20px;
+	background:#F5DEB3;
 	padding-top:50px;
 	transition:opacity 0.8s,left 0.8s,border 1s;
-	border:1px solid #1c1c1c;
 	border-radius:10px;
 	box-shadow:0px 0px 10px #1C1C1C;
+}
+	/*Fim ------------------------*/
+	/*Lanches */
+#articleLanches{
+	width:100%;
+	height:550px;
+}
+#titleArticleLanches{
+	position:relative;
+	display:block;
+	left:40%;
+	font-size:55pt;
+	top:-10%;
+	font-family:agency fb;
+	color:#B22222;
+	text-shadow:1px 1px 0px black;
+}
+.blocoLanches{
+	position:relative;
+	display:inline-block;
+	top:-5%;
+	left:10%;
+	margin-right:10px;
+	width:20%;
+	height:50%;
+	vertical-align: bottom;
+	transition:margin-bottom 1s;
+}
+.blocoComCorArticleLanches{
+	display:block;
+	position:relative;
+	width:100%;
+	height:90%;
+	box-shadow:1px 1px 10px black;
+	border-radius:10px;
+	overflow:hidden;
+	transition:filter 0.5s,height 0.4s;
+	background:linear-gradient(to bottom,#FFFAFA,#F5DEB3);
+}
+.blocoComCorArticleLanches:hover{
+	cursor:pointer;
+	filter:blur(0.5px);
+}
+.imgArticleLanches{
+	display:block;
+	position:relative;
+	width:90%;
+	height:85%;
+	left:4%;
+	filter:drop-shadow(8px 3px 10px #1C1C1C);
+	transition:filter 0.5s,height 0.4s;
+}
+.imgArticleLanches:hover{
+	filter:drop-shadow(8px 3px 10px #1C1C1C) brightness(130%);
+}
+.titleBlocoLanches{
+	display:block;
+	position:relative;
+	font-size:27pt;
+	top:-5%;
+	left:16%;
+	font-family:Helvetica Narrow, sans-serif;
+	color:#D2691E;
+	text-shadow:1px 1px 0px #1C1C1C;
+}
+.textIngredientesLanches{
+	display:block;
+	position:relative;
+	font-size:8pt;
+	font-family:verdana;
+	width:85%;
+	left:10%;
+	color:#F4A460;
 }
 	/*Fim ------------------------*/
 /*fim --------------------------*/

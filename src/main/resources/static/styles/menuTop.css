@@ -65,14 +65,16 @@
 	display:inline-block;
 	top:-55%;
 	left:7%;
-	background:#D2691E;
 	border-radius:10px;
 	width:10%;
 	height:85%;
+	background:linear-gradient(to left bottom,#FFFAFA,#F8F8FF);
+	border:1px solid #8B4513;
+	box-shadow:1px 1px 5px #1C1C1C;
 }
 .botaoAcaoLogin:hover{
 	cursor:pointer;
-	background:#1c1c1c;
+	background:#8B4513;
 	color:white;
 }
 .textBotaoAcao{
