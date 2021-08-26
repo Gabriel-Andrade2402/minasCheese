@@ -13,6 +13,7 @@
 }
  function ScrollManipulation(){
 	window.addEventListener('scroll',function(ev){
+		console.log(window.scrollY);    
 		if (window.scrollY >50){
     		let titleArticle1=document.getElementById('titleArticlePaes');
     		let imagem=document.getElementById('backgroundArticle1');
@@ -34,16 +35,33 @@
 			content.style.left="18%";
 			content.style.opacity="1";
     	}
-    	if(window.scrollY>2100){
-    		
+    	//Salgados
+    	if(window.scrollY>2150){
+    		let blocoSalgados=document.getElementById("blocoBolinhoDeQueijo");
+    		blocoSalgados.style.left="0%";
+    		blocoSalgados.style.boxShadow="0px 0px 0px white";
+    	}
+    	if(window.scrollY>2350){
+    		let blocoCoxinha=document.getElementById("blocoCoxinha");
+    		blocoCoxinha.style.left="0%";
+    		blocoCoxinha.style.boxShadow="none";
+    	}
+    	if(window.scrollY>2580){
+    		let blocoEsfirra=document.getElementById("blocoEsfirra");
+    		blocoEsfirra.style.left="0%";
+    		blocoEsfirra.style.boxShadow="none";
     	}
     	if(window.scrollY>2800){
-    		
+    		let blocoPastelzinho=document.getElementById("blocoPastelzinho");
+    		blocoPastelzinho.style.left="0%";
+    		blocoPastelzinho.style.boxShadow="none";
     	}
-    	if(window.scrollY<100){
-    		
+    	if(window.scrollY>3050){
+    		let blocoPaoDeQueijo=document.getElementById("blocoPaoDeQueijo");
+    		blocoPaoDeQueijo.style.left="0%";
+    		blocoPaoDeQueijo.style.boxShadow="none";
     	}
-
+		//Fim SALGADOS
 	})
 
 }
